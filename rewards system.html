@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards System - Green Village Pass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body class="bg-emerald-50 text-emerald-900 flex flex-col min-h-screen">
+    <!-- Header section -->
+    <header class="bg-emerald-800 text-white py-6 md:py-8 shadow-lg">
+        <div class="container mx-auto px-4 flex items-center">
+            <!-- Placeholder for logo. Use a local file path. -->
+            <img src="logo.jpg" alt="Green Village Logo" class="w-16 h-16 mr-4 rounded-full">
+            <div class="text-center md:text-left">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">Green Village Pass</h1>
+                <p class="mt-1 text-xs sm:text-sm font-light opacity-80 hidden md:block">Eco-Tourism & Sustainability in Rural Communities</p>
+            </div>
+            <nav class="hidden md:flex space-x-6 ml-auto">
+                <a href="index.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Home</a>
+                <a href="about us.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">About Us</a>
+                <a href="booking.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Bookings</a>
+                <a href="mission.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Mission</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content for Rewards System page -->
+    <main class="flex-grow py-12 md:py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl sm:text-5xl font-bold mb-4">Earn Rewards for Being Green</h2>
+            <p class="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
+                Our rewards system is designed to celebrate and encourage your commitment to sustainable tourism. Earn points by completing eco-challenges and engaging with local communities.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Rewards Card 1: Earn Points -->
+                <div class="p-6 bg-white rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="earnpoints.jpg" alt="A hand receiving a coin" class="w-full h-auto object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-emerald-800">Earn Points Easily</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Every sustainable action you take, from participating in a waste cleanup to choosing a local homestay, earns you points. Your positive impact is rewarded.
+                    </p>
+                </div>
+
+                <!-- Rewards Card 2: Redeem Rewards -->
+                <div class="p-6 bg-white rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="redeem.jpg" alt="A person holding a reward card" class="w-full h-auto object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-emerald-800">Redeem Exciting Prizes</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Use your accumulated points to redeem discounts on future bookings, local artisan crafts, or special village experiences.
+                    </p>
+                </div>
+
+                <!-- Rewards Card 3: Track Your Progress -->
+                <div class="p-6 bg-white rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="trackp.jpg" alt="A chart showing points progression" class="w-full h-auto object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-emerald-800">See Your Impact Grow</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Monitor your points and see the collective difference you and other travelers are making. Our dashboard shows how your actions contribute to a greener future.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="bg-emerald-900 text-white py-6 mt-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Green Village Pass. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

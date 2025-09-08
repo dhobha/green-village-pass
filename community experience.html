@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Experiences - Green Village Pass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body class="bg-emerald-50 text-emerald-900 flex flex-col min-h-screen">
+    <!-- Header section, copied from index.html for consistency -->
+    <header class="bg-emerald-800 text-white py-6 md:py-8 shadow-lg">
+        <div class="container mx-auto px-4 flex items-center">
+            <!-- Placeholder for logo. Use a local file path. -->
+            <img src="logo.jpg" alt="Green Village Logo" class="w-16 h-16 mr-4 rounded-full">
+            <div class="text-center md:text-left">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">Green Village Pass</h1>
+                <p class="mt-1 text-xs sm:text-sm font-light opacity-80 hidden md:block">Eco-Tourism & Sustainability in Rural Communities</p>
+            </div>
+            <nav class="hidden md:flex space-x-6 ml-auto">
+                <a href="index.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Home</a>
+                <a href="about us.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">About Us</a>
+                <a href="booking.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Bookings</a>
+                <a href="mission.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Mission</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content for Community Experiences page -->
+    <main class="flex-grow py-12 md:py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl sm:text-5xl font-bold mb-4">Engage with Our Community</h2>
+            <p class="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
+                Experience the heart of rural life by participating in authentic, hands-on activities. Our community hosts are ready to share their traditions and skills with you.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Experience Card 1: Traditional Cooking -->
+                <div class="p-6 bg-white rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="food.jpg" alt="Cooking" class="h-32 w-32 object-cover rounded-full mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-emerald-800">Traditional Cooking Class</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Learn to cook authentic local dishes using fresh, organic ingredients. Your host will guide you through age-old recipes and culinary traditions.
+                    </p>
+                    <!-- WhatsApp booking link with pre-filled message -->
+                    <a href="https://wa.me/1234567890?text=Hello%20Green%20Village%20Host!%20I%20am%20interested%20in%20the%20Traditional%20Cooking%20Class.%20Could%20you%20please%20provide%20more%20details%3F"
+                        class="bg-emerald-600 text-white font-bold py-3 px-6 rounded-full hover:bg-emerald-700 transition duration-300 mt-4 shadow-lg hover:shadow-xl">
+                        Book on WhatsApp
+                    </a>
+                </div>
+
+                <!-- Experience Card 2: Farming & Harvest -->
+                <div class="p-6 bg-white rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="faming.jpg" alt="Farming" class="h-32 w-32 object-cover rounded-full mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-emerald-800">Farming & Harvest Tour</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Spend a day on a local farm, learning about sustainable agriculture and the harvest process. Connect with the land and the people who cultivate it.
+                    </p>
+                    <a href="https://wa.me/1234567890?text=Hello%20Green%20Village%20Host!%20I%20am%20interested%20in%20the%20Farming%20and%20Harvest%20Tour.%20Could%20you%20please%20provide%20more%20details%3F"
+                        class="bg-emerald-600 text-white font-bold py-3 px-6 rounded-full hover:bg-emerald-700 transition duration-300 mt-4 shadow-lg hover:shadow-xl">
+                        Book on WhatsApp
+                    </a>
+                </div>
+
+                <!-- Experience Card 3: Handicraft Workshop -->
+                <div class="p-6 bg-white rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="handcraft.jpg" alt="Handicrafts" class="h-32 w-32 object-cover rounded-full mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-emerald-800">Handicraft Workshop</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Unleash your creativity and learn a traditional handicraft from a master artisan. Take home a unique souvenir you made yourself.
+                    </p>
+                    <a href="https://wa.me/1234567890?text=Hello%20Green%20Village%20Host!%20I%20am%20interested%20in%20the%20Handicraft%20Workshop.%20Could%20you%20please%20provide%20more%20details%3F"
+                        class="bg-emerald-600 text-white font-bold py-3 px-6 rounded-full hover:bg-emerald-700 transition duration-300 mt-4 shadow-lg hover:shadow-xl">
+                        Book on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer section, simple and consistent -->
+    <footer class="bg-emerald-900 text-white py-6 mt-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Green Village Pass. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

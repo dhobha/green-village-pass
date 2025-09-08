@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Discovery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body class="bg-emerald-50 text-emerald-900 flex flex-col min-h-screen">
+    <header class="bg-emerald-800 text-white py-6 md:py-8 shadow-lg">
+        <div class="container mx-auto px-4 flex items-center">
+            <img src="logo.jpg" alt="Green Village Logo" class="w-16 h-16 mr-4 rounded-full">
+            <div class="text-center md:text-left">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">Green Village Pass</h1>
+                <p class="mt-1 text-xs sm:text-sm font-light opacity-80 hidden md:block">Eco-Tourism & Sustainability in Rural Communities</p>
+            </div>
+            <nav class="hidden md:flex space-x-6 ml-auto">
+                <a href="index.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Home</a>
+                <a href="about us.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">About Us</a>
+                <a href="booking.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Bookings</a>
+                <a href="mission.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Mission</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow py-12 md:py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-8">Tourist Discovery: Unveiling the Heart of Our Villages</h2>
+            <div class="bg-white p-6 md:p-10 rounded-lg shadow-lg">
+                <div class="prose max-w-none text-gray-800">
+                    <img src="forest.jpg" alt="Scenic village landscape" class="w-full h-auto rounded-lg mb-6">
+                    <p class="mb-4">Welcome to the Green Village Pass, your gateway to authentic rural experiences. Our "Tourist Discovery" program is designed to connect you with the hidden gems and unique stories of our communities. Unlike mass tourism, we focus on providing intimate, sustainable encounters that benefit both travelers and the people who call these places home.</p>
+
+                    <h3 class="text-2xl font-bold mb-4 mt-8">Explore Local Treasures</h3>
+                    <div class="grid md:grid-cols-2 gap-6 items-center mb-6">
+                        <img src="treasure.jpg" alt="Traditional village market" class="w-full h-auto rounded-lg shadow-md">
+                        <p>Discover the vibrant energy of a local market. Here, you can find handmade crafts, fresh produce, and traditional foods. Every purchase directly supports the artisans and farmers, ensuring a thriving local economy. It’s an opportunity to not only buy a souvenir but also to hear the story behind it.</p>
+                    </div>
+
+                    <h3 class="text-2xl font-bold mb-4 mt-8">Nature's Path Awaits</h3>
+                    <div class="grid md:grid-cols-2 gap-6 items-center mb-6 md:order-first">
+                        <p>Lace up your boots and explore our network of scenic trails. Our guided hikes take you through breathtaking landscapes, from lush forests to rolling hills. Your guide, a local expert, will share insights on the area's flora and fauna, as well as its historical significance. These treks are designed to be low-impact, preserving the natural beauty for future generations.</p>
+                        <img src="naturep.jpg" alt="Hiking trail in a village" class="w-full h-auto rounded-lg shadow-md">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-emerald-200 text-center p-6 md:p-8 rounded-lg shadow-lg mt-8">
+                <h3 class="text-2xl font-bold mb-4">Join Our Community!</h3>
+                <p class="text-lg mb-4">Scan the code to view our services.</p>
+                <div class="bg-white p-4 inline-block rounded-lg shadow-md">
+                    <a href="https://chat.whatsapp.com/YourWhatsAppGroupLink" target="_blank">
+                        <img src="qr.jpg" alt="WhatsApp Group QR Code" class="w-36 h-36">
+                    </a>
+                </div>
+               
+        </div>
+    </main>
+</body>
+
+</html>

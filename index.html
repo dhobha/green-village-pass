@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Village Pass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body class="bg-emerald-50 text-emerald-900 flex flex-col min-h-screen">
+
+    <header class="bg-emerald-800 text-white py-6 md:py-8 shadow-lg">
+        <div class="container mx-auto px-4 flex items-center">
+            <img src="logo.jpg" alt="Green Village Logo" class="w-16 h-16 mr-4 rounded-full">
+            <div class="text-center md:text-left">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">Green Village Pass</h1>
+                <p class="mt-1 text-xs sm:text-sm font-light opacity-80 hidden md:block">Eco-Tourism & Sustainability in Rural Communities</p>
+            </div>
+            <nav class="hidden md:flex space-x-6 ml-auto">
+                <a href="index.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Home</a>
+                <a href="about us.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">About Us</a>
+                <a href="booking.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Bookings</a>
+                <a href="mission.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Mission</a>
+                
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section class="bg-emerald-200 text-emerald-900 py-12 md:py-20 text-center shadow-inner">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-tight">Visit. Support. Conserve.</h2>
+                <p class="mt-4 text-lg sm:text-xl md:text-2xl font-light">
+                    Book authentic rural experiences and track your <span class="font-semibold">carbon impact</span> 🌿
+                </p>
+                <div class="mt-8">
+                    <h3 class="text-xl font-bold mb-2">Scan to Discover More</h3>
+                    <a href="about.html">
+                        <img src="qr.jpg" alt="QR Code to About Us Page" class="mx-auto w-36 h-36 border-4 border-emerald-500 rounded-lg shadow-lg">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="py-12 md:py-16 text-center">
+            <div class="container mx-auto px-4 flex flex-col items-center">
+                <h3 class="text-2xl font-bold mb-4">Have a question? Chat with us on WhatsApp!</h3>
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="qrco.jpg" alt="WhatsApp QR Code" class="w-32 h-32 md:w-40 md:h-40">
+                    </div>
+                    <p class="text-lg font-medium text-gray-700 hidden md:block">OR</p>
+                    <a href="https://wa.me/message/UN4Z4FEIOKIEN1."
+                       class="inline-flex items-center justify-center bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105"
+                       target="_blank" rel="noopener noreferrer">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="inline-block w-6 h-6 mr-2">
+                        Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-24 bg-emerald-100">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-8">Our Team</h2>
+                <p class="text-lg text-gray-700 mb-12 max-w-2xl mx-auto">
+                    Meet the passionate individuals behind Green Village Pass, dedicated to creating sustainable eco-tourism experiences.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center transform hover:scale-105 transition duration-300">
+                        <img src="tin.jpg" alt="Tinovimbo" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-emerald-300">
+                        <h4 class="text-xl font-semibold text-emerald-800">Tinovimbo Dzimiri</h4>
+                        <p class="text-sm text-gray-600 mt-1">Safety, Health & Environmental Management</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center transform hover:scale-105 transition duration-300">
+                        <img src="hil.jpg" alt="Hillary Y Mandaba" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-emerald-300">
+                        <h4 class="text-xl font-semibold text-emerald-800">Hillary Y Mandaba</h4>
+                        <p class="text-sm text-gray-600 mt-1">Natural Resource Management</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center  transform hover:scale-105 transition duration-300">
+                        <img src="dob.jpg" alt="Mavhika Nqobizita Samuel" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-emerald-300">
+                        <h4 class="text-xl font-semibold text-emerald-800">Mavhika Nqobizita Samuel</h4>
+                        <p class="text-sm text-gray-600 mt-1">Computer Science</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center transform hover:scale-105 transition duration-300">
+                        <img src="fio.jpg" alt="Fiona Mpetiwa" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-emerald-300">
+                        <h4 class="text-xl font-semibold text-emerald-800">Fiona Mpetiwa</h4>
+                        <p class="text-sm text-gray-600 mt-1">Communication Science</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center transform hover:scale-105 transition duration-300">
+                        <img src="tidz.jpg" alt="Tinashe Mudadi" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-emerald-300">
+                        <h4 class="text-xl font-semibold text-emerald-800">Tinashe Mudadi</h4>
+                        <p class="text-sm text-gray-600 mt-1">Software Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-emerald-800 text-emerald-200 py-6 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Green Village Pass. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
